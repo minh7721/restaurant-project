@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/MinhHN.jpg">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./themify-icons/themify-icons.css">
+    <title>MinhHN</title>
+</head>
+<body>
+        <!-- start header -->
+        <div id="header">
+            <div class="container">
+                <div class="logo">
+                   <img src="./images/logo.png" alt="Restaurant logo" class="logo-reponsive">
+                </div>
+                   <ul id="nav">
+                       <li><a href="./index.html">Home</a></li>
+                       <li><a href="#">Categories</a></li>
+                       <li><a href="./menu.html">Foods</a></li>
+                       <li><a href="./order.html">Contact</a></li>
+                   </ul>
+                   <div id="mobile-menu" class="mobile-menu-btn">
+                    <i class="menu-icon ti-menu"></i>
+                  </div>
+            </div>
+        </div>
+        <!-- End header -->
+                <!-- Start content -->
+                <div id="content">
+                    <div class="container">
+                        <p class="content-explore">Explore Foods</p>
+                        <div class="content-foods">
+                             <div class="col col-third mb-col-full mt-16 text-center float-container bg-repeat3">
+                                <img src="./images/burger.jpg" alt="" class="content-food-img">
+                                 <p class="food-name">Burger</p>
+                             </div>
+                             <div class="col col-third mb-col-full mt-16 text-center float-container">
+                                <img src="./images/pizza.jpg" alt="" class="content-food-img">
+                                <p class="food-name">Pizza</p>
+                             </div>
+                             <div class="col col-third mb-col-full mt-16 text-center float-container">
+                                <img src="./images/momo.jpg" alt="" class="content-food-img">
+                                <p class="food-name">Momo</p>
+                             </div>
+                             <div class="clear"></div>
+                        </div>
+                        <div class="content-foods">
+                            <div class="col col-third mb-col-full mt-16 text-center float-container bg-repeat3">
+                               <img src="./images/burger.jpg" alt="" class="content-food-img">
+                                <p class="food-name">Burger</p>
+                            </div>
+                            <div class="col col-third mb-col-full mt-16 text-center float-container">
+                               <img src="./images/pizza.jpg" alt="" class="content-food-img">
+                               <p class="food-name">Pizza</p>
+                            </div>
+                            <div class="col col-third mb-col-full mt-16 text-center float-container">
+                               <img src="./images/momo.jpg" alt="" class="content-food-img">
+                               <p class="food-name">Momo</p>
+                            </div>
+                            <div class="clear"></div>
+                       </div>
+                       <div class="content-foods">
+                        <div class="col col-third mb-col-full mt-16 text-center float-container bg-repeat3">
+                           <img src="./images/burger.jpg" alt="" class="content-food-img">
+                            <p class="food-name">Burger</p>
+                        </div>
+                        <div class="col col-third mb-col-full mt-16 text-center float-container">
+                           <img src="./images/pizza.jpg" alt="" class="content-food-img">
+                           <p class="food-name">Pizza</p>
+                        </div>
+                        <div class="col col-third mb-col-full mt-16 text-center float-container">
+                           <img src="./images/momo.jpg" alt="" class="content-food-img">
+                           <p class="food-name">Momo</p>
+                        </div>
+                        <div class="clear"></div>
+                   </div>
+                   <div class="content-foods">
+                    <div class="col col-third mb-col-full mt-16 text-center float-container bg-repeat3">
+                       <img src="./images/burger.jpg" alt="" class="content-food-img">
+                        <p class="food-name">Burger</p>
+                    </div>
+                    <div class="col col-third mb-col-full mt-16 text-center float-container">
+                       <img src="./images/pizza.jpg" alt="" class="content-food-img">
+                       <p class="food-name">Pizza</p>
+                    </div>
+                    <div class="col col-third mb-col-full mt-16 text-center float-container">
+                       <img src="./images/momo.jpg" alt="" class="content-food-img">
+                       <p class="food-name">Momo</p>
+                    </div>
+                    <div class="clear"></div>
+               </div>
+                    </div>
+                
+                </div>
+                <!-- End content -->
+                    <!-- Start footer -->
+        <div id="footer" class="text-center">
+            <div class="container">
+            <div class="social">
+                <a href="https://www.facebook.com/HNMinh77"><img src="https://img.icons8.com/color/48/000000/facebook-circled--v3.png"/></a>
+                <a href="https://www.instagram.com/minhhn_77/"><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/></a>
+                <a href="https://vt.tiktok.com/ZSJEgqUD3/"><img src="https://img.icons8.com/color/48/000000/tiktok.png"/></a>
+            </div>
+            <p class="copyright">Powered by <a href="https://www.facebook.com/HNMinh77/">MinhHN</a></p>
+            </div>
+        </div>
+        <!-- End footer -->
+        <script>
+            var headerList = document.getElementById('header');
+            var navList = document.getElementById('nav')
+            var mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.onclick = function() {
+                var isclosed = navList.style.display === 'none';
+                if(isclosed){
+                  navList.style.display = 'block';
+                  headerList.style.height = 'auto';
+                }
+                else{
+                  navList.style.display = 'none';
+                  headerList.style.height = null;
+                }
+            }
+        </script>
+
+</body>
+</html>
