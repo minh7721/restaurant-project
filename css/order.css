@@ -151,8 +151,9 @@ body{
 .fill-form{
   color: #fff;
   text-decoration: 1.5;
-  font-size: 28px;
+  font-size: 30px;
   margin-bottom: 30px;
+  padding-left: 10%;
 }
 
 fieldset{
